@@ -106,7 +106,7 @@ body {
     width: 600px 200px 0 500px;
 }
 
-span {
+.discount span {
     color: #E55473;
 }
 
@@ -145,4 +145,76 @@ span {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.input {
+    background-image: url(../img/Rectangle\ 9.png);
+    max-width: 1440px;
+    margin: 100px auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.colum {
+    display: flex;
+    width: 800px;
+
+    gap: 5px;
+
+}
+
+.colum input {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background: #FFF;
+
+}
+
+.colum button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    width: 140px;
+    height: 60px;
+
+}
+
+/*footer styles*/
+.final-part {
+    display: flex;
+    background-color: black;
+    color: #FFFFFFE5;
+    width: 100%;
+    height: 260px;
+}
+
+.items {
+    text-align: center;
+    margin: auto;
+
+}
+
+.items span {
+    color: #E55473;
+}
+
+.items p {
+    width: 650px;
+    color: #FFFFFFE5 font-size: 18px;
+    font-weight: 400;
+
+}
+
+.items h6 {
+    color: #FFFFFF66;
+    font-size: 16px;
+    font-weight: 400;
+
 }
